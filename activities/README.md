@@ -13,11 +13,11 @@ Activities for those who are familiar with fundamental Javascript skills
 and/or concepts. Contains excersizes on more in depth topics and techniques
 that will help developers in many situations.
 
-[Intermediate Activities](Intermediate)
+[Intermediate Activities](intermediate)
 
 ## Advanced
 Activities for those who are looking for a challenge or something new.
 Contains excersizes on more advanced or niche topics that aren't usually
 required or used frequently.
 
-[Advanced Activities](Advanced)
+[Advanced Activities](advanced)
