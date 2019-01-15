@@ -1,2 +1,2 @@
-# js-study-group
-Repo for the JS Study Group
+# Javascript Study Group
+- [Weekly activity library](activities)
