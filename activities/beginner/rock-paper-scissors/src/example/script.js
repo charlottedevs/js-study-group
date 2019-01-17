@@ -1,3 +1,22 @@
+// Possible moves
+var arrOfMoves = [
+    'rock',
+    'paper',
+    'scissors'
+];
+
+// Keep track of scores
+var player = 0;
+var computer = 0;
+
+// Find our elements
+var playerScore = document.getElementById('player-score');
+var computerScore = document.getElementById('computer-score');
+var rockBtn = document.getElementById('rock');
+var paperBtn = document.getElementById('paper');
+var scissorsBtn = document.getElementById('scissors');
+var announcements = document.getElementById('announcements');
+
 // Use this to pick a move at random from the array
 function randomMove() {
     return arrOfMoves[Math.floor(Math.random() * arrOfMoves.length)];
@@ -19,25 +38,6 @@ function checkWinningCondition() {
         computerScore.innerHTML = computer;
     };
 };
-
-// Possible moves
-var arrOfMoves = [
-    'rock',
-    'paper',
-    'scissors'
-];
-
-// Keep track of scores
-var player = 0;
-var computer = 0;
-
-// Find our elements
-var playerScore = document.getElementById('player-score');
-var computerScore = document.getElementById('computer-score');
-var rockBtn = document.getElementById('rock');
-var paperBtn = document.getElementById('paper');
-var scissorsBtn = document.getElementById('scissors');
-var announcements = document.getElementById('announcements');
 
 // Add event listeners
 rockBtn.addEventListener('click', function() {
