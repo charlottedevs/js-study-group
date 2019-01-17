@@ -2,8 +2,6 @@
 
 The following are a list of activities organized by groups:
 
-## Syntax
+## DOM Manipulation
+- [Quote Changer](quote-changer)
 
-## Functions
-
-## Arrays
