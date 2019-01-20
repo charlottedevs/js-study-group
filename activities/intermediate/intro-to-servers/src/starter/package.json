@@ -1,0 +1,11 @@
+{
+  "name": "intro-to-servers",
+  "version": "1.0.0",
+  "description": "Simple Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name Here",
+  "license": "ISC"
+}
