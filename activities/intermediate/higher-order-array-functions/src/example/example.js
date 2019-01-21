@@ -5,31 +5,33 @@ const arr = [1, 2, 3, 4, 5];
 
 // assign a function to the const mapExample that will
 // accept one argument, an array
-const mapExample = (arr) => arr.map(x => x * 2 + 3);
+const mapExample = arr => arr.map(x => x * 2);
 
 console.log(mapExample(arr)); 
-// returns [ 5, 7, 9, 11, 13 ]
+// returns [ 2, 4, 6, 8, 10 ]
 
-const arrOfObjs = [
-    { 
-        first: 'Matt',
-        last: 'White'
-    },
-    {
-        first: 'Caleb',
-        last: 'Martinez'
-    }
-]
+// filter
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
-// assign a function to the const mapExample2 that will
-// accept an array of objects
-// note that I wrap a multi line return in ()
-const mapExample2 = (arrOfObjs) => arrOfObjs.map(obj => ({
-    foo: obj.first,
-    bar: obj.last
-}));
+const arr1 = [1, '', true, false, null, undefined];
 
-console.log(mapExample2(arrOfObjs));
-// returns 
-// [ { foo: 'Matt', bar: 'White' },
-// { foo: 'Caleb', bar: 'Martinez' } ]
+// assign a function to the const filterExample that will
+// accept one argument, an array
+const filterExample = arr => arr.filter(x => !!x);
+
+console.log(filterExample(arr1));
+// returns [1, true]
+
+// reduce
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+
+const arr2 = [1, 2, 3, 4, 5];
+
+// assign a function to the const reduceExample that will
+// accept one argument, an array
+const reduceExample = arr => arr.reduce((acc, currentVal) => {
+    return acc + currentVal;
+});
+
+console.log(reduceExample(arr2));
+// returns 15
