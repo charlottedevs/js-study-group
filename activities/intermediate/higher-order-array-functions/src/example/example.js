@@ -17,7 +17,7 @@ const arr1 = [1, '', true, false, null, undefined];
 
 // assign a function to the const filterExample that will
 // accept one argument, an array
-const filterExample = arr => arr.filter(x => !!x);
+const filterExample = arr => arr.filter(x => x);
 
 console.log(filterExample(arr1));
 // returns [1, true]
