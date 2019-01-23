@@ -35,3 +35,25 @@ const reduceExample = arr => arr.reduce((acc, currentVal) => {
 
 console.log(reduceExample(arr2));
 // returns 15
+
+// some 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+
+const arr3 = [40, 50, 11, 22, 100];
+
+// assign a function to the const someExample that will
+// accept one argument, an array
+const someExample = arr => arr.some(x => x > 50);
+
+console.log(someExample(arr3));
+// returns true
+
+// every 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+
+// assign a function to the const everyExample that will
+// accept one argument, an array
+const everyExample = arr => arr.every(x => x > 50);
+
+console.log(everyExample(arr3));
+// returns false

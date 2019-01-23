@@ -6,3 +6,9 @@
 
 // 3) Using reduce, add every number in this array together
 // [1, 2, 3, 4, 5]
+
+// 4) Using some, check to see if some numbers in this array is over 50
+// [40, 50, 11, 22, 100]
+
+// 5) Using every, check to see if every number in this array is over 50
+// [40, 50, 11, 22, 100]
