@@ -2,6 +2,7 @@
 These are activities meant to be used in the JSG weekly meetings when
 working with tutor groups. They are organized into three sections:
 
+
 ## Beginner
 Activities for those who want to learn fundamental JavaScript  skills.
 No previous knowledge of Javascript should be required for these activities.
