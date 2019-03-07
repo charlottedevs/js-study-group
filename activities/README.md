@@ -2,6 +2,11 @@
 These are activities meant to be used in the JSG weekly meetings when
 working with tutor groups. They are organized into three sections:
 
+## Conceptual Lessons
+Activities for those who want to learn fundamental Javascript concepts. Less quick challenges and more stuff that you need to read over, process, and dissect.
+
+[Conceptual Lessons](all levels)
+
 ## Beginner
 Activities for those who want to learn fundamental Javascript skills.
 No previous knowledge of Javascript should be required for these activities.
