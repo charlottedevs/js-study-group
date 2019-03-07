@@ -10,6 +10,16 @@ Directions written in the CodePen:
 https://codepen.io/tienlindavu/pen/EMZGBW?editors=0010#0
 
 ---
+
+## Basic For Loop
+- Difficulty level: Beginner
+- Time estimate: 30 min to an hour
+
+Directions are in the CodePen:
+https://codepen.io/tienlindavu/pen/zbZmKN?editors=0010#0
+
+---
+
 ## Coffee Shop Function
 - Difficulty level: Beginner to Intermediate
 - Time estimate: 30 min to an hour
