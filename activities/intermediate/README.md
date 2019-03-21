@@ -9,5 +9,8 @@ The following are a list of activities organized by groups:
 
 ## Arrow Functions
 
+## Closure
+- [Intro To Closures](intro-to-closures)
+
 ## Servers
 - [Intro To Servers](intro-to-servers)
