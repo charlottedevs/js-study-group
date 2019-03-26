@@ -1,3 +1,4 @@
+// fetch intakes a URL
 fetch('https://jsonplaceholder.typicode.com/todos/1')
     // return the json body from response
     .then(response => response.json())
