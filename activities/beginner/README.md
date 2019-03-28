@@ -35,6 +35,9 @@ https://codepen.io/tienlindavu/pen/drvqzO?editors=0010
 
 ---
 
+## Fetching Data
+- [Using Fetch](using-fetch)
+
 # Conceptual Lessons
 
 ---
